@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+     "configurations": [
+        {
+            "name": "attach to renode",
+            "type": "cppdbg",
+            "request": "launch",
+            // TO-DO change this to you location of elf 
+            "program": "${workspaceRoot}/build_cmake/lab1",
+            "args": [],
+            "svdPath" : "${workspaceRoot}/STM32F407.svd",
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true,
+                }
+            ],
+            "miDebuggerPath": "gdb-multiarch",
+            "miDebuggerServerAddress": "localhost:1234"
+        }
+    ]
+}
