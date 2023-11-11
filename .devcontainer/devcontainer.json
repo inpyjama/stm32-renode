@@ -1,0 +1,35 @@
+{
+  "build": { "dockerfile": "Dockerfile"},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.fontSize": 16,
+        "terminal.integrated.fontSize": 16,
+        "workbench.iconTheme": "vs-seti",
+        "editor.minimap.enabled": false,
+        "workbench.colorTheme": "MacOS Modern Dark - Ventura Xcode Default",
+        "workbench.preferredDarkColorTheme": "MacOS Modern Dark - Ventura Xcode Default",
+        "editor.wordWrapColumn": 120,
+        "workbench.startupEditor": "none",
+        "editor.useTabStops": false,
+        "files.trimTrailingWhitespace": true,
+        "git.autorefresh": false,
+        "terminal.integrated.cursorBlinking": true,
+        "terminal.integrated.cursorStyle": "line",
+        "debug.console.fontSize": 16,
+        "editor.rulers": [
+            120
+        ],
+        "terminal.integrated.sendKeybindingsToShell": true,
+        "extensions.ignoreRecommendations": true,
+        "remote.autoForwardPorts": false
+      },
+      "extensions": [
+        "zhwu95.riscv",
+        "ZixuanWang.linkerscript",
+        "ms-vscode.cpptools",
+        "davidbwaters.macos-modern-theme"
+	    ]
+    }
+  }
+}
