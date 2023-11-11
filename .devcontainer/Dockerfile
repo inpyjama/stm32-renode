@@ -8,9 +8,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install main dependencies and some useful tools
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends ca-certificates sudo wget && rm -rf /var/lib/apt/lists/*
-
+RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends ca-certificates wget && sudo rm -rf /var/lib/apt/lists/*
 RUN sudo apt-get install --no-install-recommends -y \
   ca-certificates \
   sudo \
