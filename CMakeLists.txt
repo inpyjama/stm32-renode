@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 set(CMAKE_C_COMPILER_WORKS 1)
 
 # TO-DO update this with your path to arm-none-eabi-gcc based on installation
-set(CMAKE_C_COMPILER /usr/share/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc)
+set(CMAKE_C_COMPILER arm-none-eabi-gcc)
 set(LINKER_SCRIPT "../linker.ld")
 project(getting-started LANGUAGES C ASM)
 
