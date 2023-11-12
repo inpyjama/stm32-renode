@@ -33,7 +33,8 @@ RUN sudo apt-get install --no-install-recommends -y \
   strace \
   man \
   cpio \
-  libncurses5
+  libncurses5 \
+  cmake
 
 RUN wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2 -O gcc-arm-none-eabi.tar.bz2
 RUN mkdir gcc-arm-none-eabi && tar xjfv gcc-arm-none-eabi.tar.bz2 -C gcc-arm-none-eabi --strip-components 1

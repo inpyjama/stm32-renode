@@ -28,7 +28,12 @@
         "zhwu95.riscv",
         "ZixuanWang.linkerscript",
         "ms-vscode.cpptools",
-        "davidbwaters.macos-modern-theme"
+        "davidbwaters.macos-modern-theme",
+        "dan-c-underwood.arm",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cpptools-themes",
+        "ms-vscode.vscode-embedded-tools"
 	    ]
     }
   }
